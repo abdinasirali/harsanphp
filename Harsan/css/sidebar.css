@@ -1,0 +1,88 @@
+.flex {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1a1a2e; /* Midab mugdi laakiin aan aad u madow ahayn */
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+
+.sidebar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.sidebar .navbar a {
+    display: block;
+    color: #ffffff !important; /* Midabka cadaanka ah */
+    text-decoration: none;
+    padding: 12px 0;
+    font-size: 28px !important; /* Weyneeyn oo dheeraad ah */
+    font-weight: bold; /* Ikhtiyaari: Xoogga font-ka */
+}
+
+.sidebar .navbar a:hover {
+    background-color: #34495e;
+    padding-left: 12px;
+}
+
+
+.main-content {
+    margin-left: 270px; /* Adjust to match sidebar width */
+    padding: 20px;
+}
+.admin-profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #fff;
+}
+
+.admin-name {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+.navbar a {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Fogaanta u dhaxeysa icon iyo qoraalka */
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 0;
+}
+
+.navbar a i {
+    font-size: 20px; /* Cabbirka icon */
+}
+
+.navbar a:hover {
+    background-color: #34495e;
+    padding-left: 12px;
+}
+.icons p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
